@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+  background-color: #333;
+  color: white;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.row{
+
+  overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.movies,.series,.games{
+    background-color: #333;
+
+    overflow-x:scroll;
+    overscroll-behavior-x:inherit;
+    white-space: nowrap;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.front{
+  margin-left: 0;
+  margin-right: 9%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  background-color: black;
+  justify-content: space-between;
+  padding: 1%;
+  color: aqua;
+
+}
+input{
+  width: 50%;
+  height: 4vh;
+}
+button{
+  height: 5vh;
+  color:blue;
+  background-color: aqua;
+  width: 10%;
+}
+img{
+  max-width: 100%;
+}
+.navdiv{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+@media (max-width:425px){
+  input{
+    width: 70%;
+    height: 3vh;
+    margin: 0%;
+  }
+  button{
+    height: 4vh;
+    color:blue;
+    padding: 0.1%;
+    background-color: aqua;
+    width:23%;
+    margin: 0%;
+  }
+  img{
+    width:100px;
+    height: 150px;
+}
+}
+@media (max-width:321){
+  input{
+    width: 70%;
+    height: 3vh;
+    margin: 0%;
+  }
+  button{
+    height: 4vh;
+    color:blue;
+    background-color: aqua;
+    width:10%;
+     margin: 0%;
+    font-size: 1px;
+    font-weight: 1px;
+  }
+}
