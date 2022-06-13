@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/omdbapp/static/css/main.8b5589ba.css",
+    "main.css": "/omdbapp/static/css/main.0a1615db.css",
     "main.js": "/omdbapp/static/js/main.81064c30.js",
     "index.html": "/omdbapp/index.html",
-    "main.8b5589ba.css.map": "/omdbapp/static/css/main.8b5589ba.css.map",
+    "main.0a1615db.css.map": "/omdbapp/static/css/main.0a1615db.css.map",
     "main.81064c30.js.map": "/omdbapp/static/js/main.81064c30.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5589ba.css",
+    "static/css/main.0a1615db.css",
     "static/js/main.81064c30.js"
   ]
 }
